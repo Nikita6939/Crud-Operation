@@ -6,9 +6,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Student Data</title>
 </head>
 <body>
+<h1>Student Details</h1>
+<a href="register">+ Add Student</a>
 <%List<Student> list=(List)session.getAttribute("Student");%>
      <table>
      <thead>
